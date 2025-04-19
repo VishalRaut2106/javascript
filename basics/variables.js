@@ -21,6 +21,8 @@ console.table([accountEmail,accountpassword,accountCity,accountState]) //print i
 
 
 /*
+
+OUTPUT:-
 ┌─────────┬──────────────────┐
 │ (index) │ Values           │
 ├─────────┼──────────────────┤
