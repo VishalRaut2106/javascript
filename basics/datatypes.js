@@ -46,3 +46,28 @@ const myFunction = function(){
 console.log(typeof heros);
 
 
+//Stack (Primitive), =>change occure in the copy OG remain same
+//  Heap(Non-Primitive) => changes in the OG 
+let MyfullName = "VishalDevidasRaut"
+
+let Name = MyfullName
+
+Name = "Vishalraut"
+
+console.log(MyfullName);
+
+console.log(Name);
+
+
+
+
+let User1 = {
+    email: "user@google.com",
+    upi: "user@ybl"
+}
+let User2 = User1
+  User2.email= "vishal@google.com"
+
+
+console.log(User1.email);
+console.log(User2.email);
