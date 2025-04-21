@@ -71,3 +71,4 @@ let User2 = User1
 
 console.log(User1.email);
 console.log(User2.email);
+// the main also changed
