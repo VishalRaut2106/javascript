@@ -5,6 +5,7 @@ const course = {
 }
 // course.CourseInsrtuctor
 
-const{ CourseInsrtuctor} = course
+const{ CourseInsrtuctor : instructor} = course          //  now we can call cousreinstructor as instructor only
 
 console.log(CourseInsrtuctor);
+
