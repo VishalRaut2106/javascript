@@ -3,12 +3,12 @@
 // ! ||--------------------------------------------------------------------------------||
 
 function SayMy_Name() {
-  console.log("V");
-  console.log("I");
-  console.log("S");
-  console.log("H");
-  console.log("A");
-  console.log("L");
+    console.log("V");
+    console.log("I");
+    console.log("S");
+    console.log("H");
+    console.log("A");
+    console.log("L");
 }
 
 // SayMy_Name()
@@ -29,14 +29,46 @@ function SayMy_Name() {
 
 // console.log("result:",result);
 
+function loginUserMessage(username = "jon") {
+    //if no user logged in the jon will default
 
-function loginUserMessage(username ="jon") {            //if no user logged in the jon will default
-
-    if (!username){                         //  !username = username ===undefined
+    if (!username) {
+        //  !username = username ===undefined
         console.log("Please enter a username");
-        return
+        return;
     }
-  return `${username} just logged in`;
+    return `${username} just logged in`;
 }
 
-console.log(loginUserMessage("Vishal"));    //user
+console.log(loginUserMessage("Vishal")); //user
+
+// ! ||--------------------------------------------------------------------------------||
+// ! ||                                 rest-operator                                  ||
+// ! ||--------------------------------------------------------------------------------||
+
+function calculateCartPrice(...number1) {
+    //...rest operator  wrap in group
+    return number1;
+}
+
+console.log(calculateCartPrice(2, 34, 56));
+
+const user = {
+    username: "vishal",
+    price: 199,
+};
+function handleObject(anyobject) {
+    console.log(
+        `username is ${anyobject.username} and price is ${anyobject.price}`
+    );
+}
+handleObject(user);
+
+
+
+// *****************************
+const myArray = [200,400,100,300]
+function returnSeconde(getArray){
+    return getArray[1]
+}
+console.log( returnSeconde(myArray));
