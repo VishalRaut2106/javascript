@@ -1,8 +1,8 @@
 
 // ! Scope Types in JavaScript with Examples
-// ! ||--------------------------------------------------------------------------------||
-// ! ||                                   {} = scope                                   ||
-// ! ||--------------------------------------------------------------------------------||
+/**************
+ ! {} = SCOPE *
+ **************/
 
 // 1. Global Scope
 // A variable declared outside all functions or blocks.
@@ -43,5 +43,6 @@ if (true) {
 // console.log(blockLet); // Error: not defined
 // console.log(blockConst); // Error: not defined
 console.log(blockVar); // Accessible (var is function/global scoped)
+
 
 
