@@ -1,3 +1,10 @@
+// --- Explanatory Notes ---
+// Demonstrates the use of for...of loops for iterating over arrays, strings, and Maps in JavaScript.
+// for...of loops allow direct access to values of iterable objects.
+// Useful for processing elements, characters, or key-value pairs without manual indexing.
+// Also covers Map structure and its iteration.
+//
+// --- Definitions & Usage ---
 /**********
  * FOR OF *
  **********/
@@ -67,3 +74,7 @@ const myObject = {
 // for (const [key ,value] of myObject) {
 //     // console.log(key, ' : ', value);
 // }
+// --- Advantages ---
+// - for...of loops provide a clean way to iterate over values in arrays, strings, and other iterables.
+// - Map iteration allows easy access to key-value pairs.
+// - Improves code readability and reduces errors from manual indexing.

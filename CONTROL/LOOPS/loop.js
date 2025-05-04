@@ -1,3 +1,10 @@
+// --- Explanatory Notes ---
+// Demonstrates the use of for loops, nested loops, break, and continue in JavaScript.
+// for loops are used to execute a block of code a specific number of times.
+// Nested loops allow iteration within iteration, useful for tables or matrices.
+// break exits the loop immediately; continue skips to the next iteration.
+//
+// --- Definitions & Usage ---
 /*******
  * FOR LOOP *
  *******/
@@ -17,7 +24,7 @@ for (let i = 1; i <=10; i++) {
     
     for (let j = 1; j <= 10; j++) {
         // console.log(`inner loop :${j}`);
-        // console.log(i + "*"+ j + '='+ i*j);  
+        // console.log(i + "*"+ j + '=' + i*j);  
         
     }
     
@@ -49,3 +56,7 @@ for (let i = 1; i < 20; i++) {
     console.log(`value of i is ${i}`);
     
 }
+// --- Advantages ---
+// - for and nested loops allow repetitive tasks and complex data traversal.
+// - break and continue provide fine control over loop execution.
+// - Mastery of loops is essential for efficient algorithm design and data processing.
