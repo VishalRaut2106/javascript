@@ -24,12 +24,12 @@
 			"com.tldraw.shape.note": 9,
 			"com.tldraw.shape.line": 5,
 			"com.tldraw.shape.frame": 1,
-			"com.tldraw.shape.arrow": 5,
+			"com.tldraw.shape.arrow": 6,
 			"com.tldraw.shape.highlight": 1,
 			"com.tldraw.shape.embed": 4,
 			"com.tldraw.shape.image": 5,
 			"com.tldraw.shape.video": 3,
-			"com.tldraw.binding.arrow": 0
+			"com.tldraw.binding.arrow": 1
 		}
 	},
 	"records": [
@@ -62,7 +62,9 @@
 				"text": "",
 				"labelPosition": 0.5,
 				"font": "draw",
-				"scale": 1
+				"scale": 1,
+				"kind": "arc",
+				"elbowMidPoint": 0.5
 			},
 			"parentId": "page:page",
 			"index": "aC4UZ",
@@ -97,7 +99,9 @@
 				"text": "",
 				"labelPosition": 0.5,
 				"font": "serif",
-				"scale": 1
+				"scale": 1,
+				"kind": "arc",
+				"elbowMidPoint": 0.5
 			},
 			"parentId": "page:page",
 			"index": "aP0nK",
@@ -169,9 +173,9 @@
 		{
 			"id": "pointer:pointer",
 			"typeName": "pointer",
-			"x": 1623.0930307705876,
-			"y": 595.0268828606398,
-			"lastActivityTimestamp": 1746159103691,
+			"x": 567.9565404371353,
+			"y": 1010.7139741132316,
+			"lastActivityTimestamp": 1746931826987,
 			"meta": {}
 		},
 		{
@@ -352,7 +356,9 @@
 				"text": "",
 				"labelPosition": 0.5,
 				"font": "draw",
-				"scale": 1
+				"scale": 1,
+				"kind": "arc",
+				"elbowMidPoint": 0.5
 			},
 			"parentId": "page:page",
 			"index": "a39Cd",
@@ -567,7 +573,9 @@
 				"text": "",
 				"labelPosition": 0.5,
 				"font": "sans",
-				"scale": 1
+				"scale": 1,
+				"kind": "arc",
+				"elbowMidPoint": 0.5
 			},
 			"parentId": "page:page",
 			"index": "a53Jh",
@@ -602,7 +610,9 @@
 				"text": "",
 				"labelPosition": 0.5,
 				"font": "sans",
-				"scale": 1
+				"scale": 1,
+				"kind": "arc",
+				"elbowMidPoint": 0.5
 			},
 			"parentId": "page:page",
 			"index": "a79Ih",
@@ -637,7 +647,9 @@
 				"text": "",
 				"labelPosition": 0.5,
 				"font": "serif",
-				"scale": 1
+				"scale": 1,
+				"kind": "arc",
+				"elbowMidPoint": 0.5
 			},
 			"parentId": "page:page",
 			"index": "aPgcn",
@@ -734,9 +746,9 @@
 			"typeName": "shape"
 		},
 		{
-			"x": 765.2227969648981,
-			"y": -584.5460673989041,
-			"z": 0.6106395173861342,
+			"x": 900.6175387573146,
+			"y": 112.45606248010878,
+			"z": 0.41169188887817776,
 			"meta": {},
 			"id": "camera:page:page",
 			"typeName": "camera"
@@ -941,7 +953,9 @@
 				"text": "",
 				"labelPosition": 0.5,
 				"font": "sans",
-				"scale": 1
+				"scale": 1,
+				"kind": "arc",
+				"elbowMidPoint": 0.5
 			},
 			"parentId": "page:page",
 			"index": "a7ns0",
@@ -960,7 +974,8 @@
 					"x": 0.10324841804486486,
 					"y": 0.8163008304807122
 				},
-				"terminal": "start"
+				"terminal": "start",
+				"snap": "none"
 			},
 			"typeName": "binding"
 		},
@@ -1006,9 +1021,7 @@
 		{
 			"editingShapeId": null,
 			"croppingShapeId": null,
-			"selectedShapeIds": [
-				"shape:eWHIErq3aRlnIxP8RnfDz"
-			],
+			"selectedShapeIds": [],
 			"hoveredShapeId": null,
 			"erasingShapeIds": [],
 			"hintingShapeIds": [],
@@ -1136,7 +1149,8 @@
 					"x": 0.3511968457279474,
 					"y": 0.4010357832052773
 				},
-				"terminal": "end"
+				"terminal": "end",
+				"snap": "none"
 			},
 			"typeName": "binding"
 		},
@@ -1247,7 +1261,9 @@
 				"text": "",
 				"labelPosition": 0.5,
 				"font": "serif",
-				"scale": 1
+				"scale": 1,
+				"kind": "arc",
+				"elbowMidPoint": 0.5
 			},
 			"parentId": "page:page",
 			"index": "aUai4",
@@ -1666,7 +1682,9 @@
 				"text": "",
 				"labelPosition": 0.5,
 				"font": "mono",
-				"scale": 1
+				"scale": 1,
+				"kind": "arc",
+				"elbowMidPoint": 0.5
 			},
 			"parentId": "page:page",
 			"index": "aWrYN5x1",
@@ -1724,7 +1742,8 @@
 					"x": 0.6242273675177975,
 					"y": 0.7125819157470156
 				},
-				"terminal": "end"
+				"terminal": "end",
+				"snap": "none"
 			},
 			"typeName": "binding"
 		},
@@ -1955,7 +1974,8 @@
 					"x": 0.7581010427079465,
 					"y": 0.5
 				},
-				"terminal": "start"
+				"terminal": "start",
+				"snap": "none"
 			},
 			"typeName": "binding"
 		},
@@ -2119,7 +2139,9 @@
 				"text": "",
 				"labelPosition": 0.5,
 				"font": "serif",
-				"scale": 1
+				"scale": 1,
+				"kind": "arc",
+				"elbowMidPoint": 0.5
 			},
 			"parentId": "page:page",
 			"index": "aU5sa",
@@ -2142,14 +2164,7 @@
 		{
 			"followingUserId": null,
 			"opacityForNextShape": 1,
-			"stylesForNextShape": {
-				"tldraw:geo": "rectangle",
-				"tldraw:font": "mono",
-				"tldraw:color": "grey",
-				"tldraw:size": "m",
-				"tldraw:fill": "solid",
-				"tldraw:dash": "draw"
-			},
+			"stylesForNextShape": {},
 			"brush": null,
 			"scribbles": [],
 			"cursor": {
@@ -2163,7 +2178,7 @@
 			"screenBounds": {
 				"x": 0,
 				"y": 0,
-				"w": 1488,
+				"w": 1283.2000732421875,
 				"h": 749.6000366210938
 			},
 			"insets": [
@@ -2181,9 +2196,9 @@
 			"isFocused": true,
 			"devicePixelRatio": 1.25,
 			"isCoarsePointer": false,
-			"isHoveringCanvas": false,
+			"isHoveringCanvas": true,
 			"openMenus": [],
-			"isChangingStyle": true,
+			"isChangingStyle": false,
 			"isReadonly": false,
 			"meta": {},
 			"duplicateProps": null,
@@ -2342,7 +2357,9 @@
 				"text": "",
 				"labelPosition": 0.5,
 				"font": "serif",
-				"scale": 1
+				"scale": 1,
+				"kind": "arc",
+				"elbowMidPoint": 0.5
 			},
 			"parentId": "page:page",
 			"index": "aFj0A",
@@ -2416,7 +2433,9 @@
 				"text": "",
 				"labelPosition": 0.5,
 				"font": "draw",
-				"scale": 1
+				"scale": 1,
+				"kind": "arc",
+				"elbowMidPoint": 0.5
 			},
 			"parentId": "page:page",
 			"index": "aCbNh",
@@ -2435,7 +2454,8 @@
 					"x": 0.8119356909276978,
 					"y": 0.7447757228866227
 				},
-				"terminal": "start"
+				"terminal": "start",
+				"snap": "none"
 			},
 			"typeName": "binding"
 		},
@@ -2468,7 +2488,9 @@
 				"text": "",
 				"labelPosition": 0.5,
 				"font": "serif",
-				"scale": 1
+				"scale": 1,
+				"kind": "arc",
+				"elbowMidPoint": 0.5
 			},
 			"parentId": "page:page",
 			"index": "aX5MF",
@@ -2503,7 +2525,9 @@
 				"text": "",
 				"labelPosition": 0.5,
 				"font": "serif",
-				"scale": 1
+				"scale": 1,
+				"kind": "arc",
+				"elbowMidPoint": 0.5
 			},
 			"parentId": "page:page",
 			"index": "aO4xL",
@@ -2644,7 +2668,8 @@
 					"x": 0.03333346048990885,
 					"y": 0.33746874586908765
 				},
-				"terminal": "end"
+				"terminal": "end",
+				"snap": "none"
 			},
 			"typeName": "binding"
 		},
@@ -2700,7 +2725,8 @@
 					"x": 0.9400977830920312,
 					"y": 0.5164606534010968
 				},
-				"terminal": "start"
+				"terminal": "start",
+				"snap": "none"
 			},
 			"typeName": "binding"
 		},
@@ -2733,7 +2759,9 @@
 				"text": "",
 				"labelPosition": 0.5,
 				"font": "sans",
-				"scale": 1
+				"scale": 1,
+				"kind": "arc",
+				"elbowMidPoint": 0.5
 			},
 			"parentId": "page:page",
 			"index": "a7wN98Gs",
