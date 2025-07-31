@@ -22,19 +22,20 @@ body {
   width : 100%;
   padding: 20px
 }
-
-#tabs{
+  #tabs {
     display: flex;
     gap: 20px;
-}
-.tab{
-    padding: 12px 20px;
-    background-color: #6f6f6f;
-    border:2px solid #dadada;
-    border-radius: 4px;
-}
-#h33{
-    margin-top: 20px;
-    width: 50%;
+    margin-bottom: 20px;
+    cursor: pointer;
+  }
+  .tab {
+    padding: 8px 12px;
+    background: #f0f0f0;
+    border-radius: 6px;
+  }
+  .tab:hover {
+    background: #ddd;
+  }
+  .tabcontent {
     display: none;
-}
+  }
