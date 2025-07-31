@@ -120,3 +120,18 @@ contact.addEventListener("click", function () {
   contacttext.style.display = "block";
   contacttext.style.width = "50%";
 });
+
+// 
+var prg = document.querySelector(".progress")
+var text = document.querySelector("#complete")
+var count  = 0;
+var int = setInterval(function(){
+  if (count ===100){
+    text.style.opacity = "1"
+ int.clearInterval(int)
+  }
+  count++;
+  prg.style.width = count+'%';
+
+
+},100)
