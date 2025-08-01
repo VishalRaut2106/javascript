@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  font-family: 'Gilroy', Segoe UI, Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+  overflow-x: hidden;
+}
+
+.main {
+  /* Required for locomotive-scroll */
+  overflow: hidden;
+}
+
+#page1, #page2, #page3 {
+  height: 100vh;
+  width: 100%;
+}
+
+#page1 {
+  background-color: #7b97af;
+}
+
+#page2 {
+  background-color: #4a82b3;
+}
+
+#page3 {
+  background-color: #0b61ad;
+}
+
+#page2 .image-div {
+  height: 100%;
+  width: 50%;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  overflow: hidden;
+}
+
+.image-div img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
