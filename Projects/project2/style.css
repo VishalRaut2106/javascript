@@ -1,0 +1,83 @@
+/* Reset some default browser styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Base setup */
+html {
+  scroll-behavior: smooth;
+  font-size: 16px;
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #dd2525;
+  color: #333;
+  line-height: 1.6;
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+/* Pages */
+.page1 {
+  height: 100vh;
+  width: 100%;
+  background-color: rgb(198, 177, 149); /* ❌ You had "a rgb(...)" */
+}
+
+.page2 {
+  height: 100%;
+  width: 100%;
+  background-color: rgb(227, 191, 143);
+}
+
+.page2 img {
+  height: 100%;
+  width: 20%;
+  object-fit: cover;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.page3 {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(209, 152, 77);
+}
+.page4 {
+  height: 100vh;
+  background-color: #14b9eb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading-wrapper {
+  width: 100vw;
+  overflow: hidden;
+  display: flex;
+  /* justify-content: flex-start; */
+  align-items: center;
+  padding-left: 5vw; 
+}
+
+.page4 h1 {
+  font-size: 500px;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+
+.page5{
+  height: 100%;
+  width: 100%;
+  background:lightcoral;
+}
