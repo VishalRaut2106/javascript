@@ -1,30 +1,25 @@
 var tl = gsap.timeline()
 
-tl.to("#box1",{
-    x : 800,
-    scale : 0.2,
-    duration : 2,
-    delay : 1,
-    rotate : 360,
-    backgroundColor : "blue"
+gsap.from(".page1 .box1",{
+
+    scale:0,
+    
+    duration :2,
+    rotate : 720, 
 
 })
-tl.to("#box2",{
-    x : 800,
-    scale : 0.2,
-    duration : 2,
-    rotate : 360,
-    backgroundColor : "red"
+gsap.from(".page2 .box1",{
+
+    scale:0,
+    duration :2,
+    rotate : 720, 
+    scrollTrigger:{
+        trigger: ".page2 .box1",
+        scroller:"body",
+        markers : true,
+        start: "top 60%",
+        end:"top 30%",
+        scrub : 2
+    }
 
 })
-tl.to("#box3",{
-    x : 800,
-    scale : 0.2,
-    duration : 2,
-    rotate : 360,
-    backgroundColor : "yellow"
-
-})
-
-
-
