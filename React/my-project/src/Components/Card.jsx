@@ -27,6 +27,32 @@ function Card() {
       description: "Lorem ipsum dolor sit amet consectetur adipisicing2",
     },
     
+    {
+      image:
+        "https://images.unsplash.com/photo-1633174524778-61a18ee54490?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=https://images.unsplash.com/photo-1632813404574-b63d317ee258?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fGFtYXpvbnxlbnwwfHwwfHx8MA%3D%3D%3D%3D",
+      name: "amazon one",
+      description: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+    },
+    {
+      image:
+        "https://images.unsplash.com/photo-1624521793559-136bfe16fc86?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=https://images.unsplash.com/photo-1624984608976-8a7358d25bce?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fGFtYXpvbnxlbnwwfHwwfHx8MA%3D%3D%3D%3D",
+      name: "Amazon Day",
+      description: "Lorem ipsum dolor sit amet consectetur adipisicing2",
+    },
+    
+    {
+      image:
+        "https://images.unsplash.com/photo-1633174524778-61a18ee54490?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=https://images.unsplash.com/photo-1632813404574-b63d317ee258?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fGFtYXpvbnxlbnwwfHwwfHx8MA%3D%3D%3D%3D",
+      name: "amazon one",
+      description: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+    },
+    {
+      image:
+        "https://images.unsplash.com/photo-1624521793559-136bfe16fc86?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=https://images.unsplash.com/photo-1624984608976-8a7358d25bce?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fGFtYXpvbnxlbnwwfHwwfHx8MA%3D%3D%3D%3D",
+      name: "Amazon Day",
+      description: "Lorem ipsum dolor sit amet consectetur adipisicing2",
+    },
+    
   ];
 
   return (
