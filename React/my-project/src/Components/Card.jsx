@@ -139,6 +139,16 @@ function Card2() {
   );
 }
 
+function Card3() {
+  const [val, setVal] = useState(false);
 
-export { Card, Card2 };
+  return <div className="m-10 bg-amber-400">
+    <h1>
+      {val === false ? "BAHAR JAO":"MAT JAO" }
+    </h1>
+    <button onClick={()=> setVal(()=> !val)} className="px-2 py-1 bg-violet-300 cursor-pointer"> Change</button>
+  </div>;
+}
 
+
+export { Card, Card2, Card3 };

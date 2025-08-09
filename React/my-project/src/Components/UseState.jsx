@@ -21,7 +21,7 @@ function UseState() {
   };
 
   return (
-    <div>
+    <div className="bg-amber-100">
       {val.map((item, index) => (
         <h1 key={index}>{item}</h1>
       ))}
