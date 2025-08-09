@@ -1,13 +1,15 @@
 import React from "react";
-import Card from "./Components/Card";
+import { Card, Card2 } from "./Components/Card"; // named import
+import UseState from "./Components/UseState";
 
 function App() {
   const data = ["vishal", "vishal raut", "kiran"];
 
   return (
     <>
-     <Card/>
-     
+      <Card />
+      <UseState/>
+      <Card2 />
     </>
   );
 }
