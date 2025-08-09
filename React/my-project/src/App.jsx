@@ -1,5 +1,5 @@
 import React from "react";
-import { Card, Card2 } from "./Components/Card"; // named import
+import { Card, Card2 , Card3 } from "./Components/Card"; // named import
 import UseState from "./Components/UseState";
 
 function App() {
@@ -10,6 +10,7 @@ function App() {
       <Card />
       <UseState/>
       <Card2 />
+      <Card3/>
     </>
   );
 }
