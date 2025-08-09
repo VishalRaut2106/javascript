@@ -1,29 +1,43 @@
 import React, { useState } from "react";
 
 function UseState() {
-  const [val, setval] = useState([1, 2, 3, 4, 5, 6]);
+  const [val, setVal] = useState([1, 2, 3, 4, 5, 6]);
+
+  // Add number function
+  const handleAdd = () => {
+    setVal((prev) => {
+      const newVal = [...prev, prev[prev.length - 1] + 1];
+      if (newVal[newVal.length - 1] === 7) {
+        console.log("Thala for a reason 🐐");
+        alert("Thala for a reason 🐐");
+      }
+      return newVal;
+    });
+  };
+
+  // Remove last number
+  const handleRemove = () => {
+    setVal((prev) => prev.filter((_, index) => index !== prev.length - 1));
+  };
+
   return (
     <div>
-      {val.map((item) => (
-        <h1>{item}</h1>
+      {val.map((item, index) => (
+        <h1 key={index}>{item}</h1>
       ))}
+
       <button
-        onClick={() =>
-          setval(() => val.filter((item, index) => index != val.length - 1))
-        }
+        onClick={handleRemove}
         className="px-2 py-1 bg-blue-500 text-white rounded m-2"
       >
-        {" "}
-        click
+        Remove Last Number
       </button>
+
       <button
-        onClick={() =>
-          setval((val) =>[...val, val.length + 1])
-        }
-        className="px-2 py-1 bg-blue-500 text-white rounded m-2"
+        onClick={handleAdd}
+        className="px-2 py-1 bg-green-500 text-white rounded m-2"
       >
-        {" "}
-        Add next Number
+        Add Next Number
       </button>
     </div>
   );
