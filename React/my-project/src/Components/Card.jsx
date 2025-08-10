@@ -142,13 +142,26 @@ function Card2() {
 function Card3() {
   const [val, setVal] = useState(false);
 
-  return <div className="m-10 bg-amber-400">
-    <h1>
-      {val === false ? "BAHAR JAO":"MAT JAO" }
-    </h1>
-    <button onClick={()=> setVal(()=> !val)} className="px-2 py-1 bg-violet-300 cursor-pointer"> Change</button>
-  </div>;
+  return (
+    <div className="m-10 bg-amber-400">
+      <h1>{val === false ? "BAHAR JAO" : "MAT JAO"}</h1>
+      <button
+        onClick={() => setVal(() => !val)}
+        className="px-2 py-1 bg-violet-300 cursor-pointer"
+      >
+        {" "}
+        Change
+      </button>
+    </div>
+  );
 }
 
+function CardProp({text,color}) {
+  return (
+    <button className={`px-3 py-1 ${color} bg-blue-400 rounded  m-2`}>
+     {text}
+    </button>
+  );
+}
 
-export { Card, Card2, Card3 };
+export { Card, Card2, Card3, CardProp };
