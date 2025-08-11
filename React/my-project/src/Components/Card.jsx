@@ -158,7 +158,7 @@ function Card3() {
 
 function CardProp({text,color}) {
   return (
-    <button className={`px-3 py-1 ${color} bg-blue-400 rounded  m-2`}>
+    <button className={`px-3 py-1 ${color} cursor-pointer bg-blue-400 rounded  m-2`}>
      {text}
     </button>
   );
