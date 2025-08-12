@@ -7,6 +7,7 @@ import Music from "./Components/Music";
 import Navbar from "./Components/Navbar";
 
 function App() {
+  // people
   const dataProps = [
     {
       name: "Jon Doe",
@@ -78,7 +79,7 @@ function App() {
         "Designs clothing with a blend of modern elegance and cultural heritage.",
       image:
         "https://images.unsplash.com/photo-1556761175-4b46a572b786?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.1.0",
-      friend: false,
+      friend: true,
     },
   ];
 
@@ -96,7 +97,7 @@ function App() {
   const musicList = [
     {
       image:
-        "https://images.unsplash.com/photo-1754764987594-2236e7736115?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1556761175-4b46a572b786?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.1.0",
       song: "Shadows & Light",
       artist: "Emily Grace",
       added: false,
@@ -134,18 +135,26 @@ function App() {
         "https://images.unsplash.com/photo-1539614474468-f423a2d2270c?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjh8fHBvcnRyYWl0fGVufDB8MXwwfHx8MA%3D%3D",
       song: "Falling Stars",
       artist: "Mia Collins",
-      added: false,
+      added: true,
     },
   ];
 
   const [songData, setSongData] = useState(musicList);
+  // functions yha run wha se 
+  const handleSongAdd = (cardIndex) => {
+    setSongData((previous) =>
+      previous.map((item, index) =>
+        index === cardIndex? {...item, added:!item.added } : item
+      )
+    );
+  };
 
   return (
     <>
-      <Navbar />
+      <Navbar  data={songData}/>
       <div className="px-15 flex gap-10 mt-10 flex-wrap">
-        {songData.map((obj) => {
-          return <Music musicListData={obj} />;
+        {songData.map((obj , index) => {
+          return <Music musicListData={obj} handleSongAdd={handleSongAdd} index={index} key={index} />;
         })}
       </div>
       <Card />
