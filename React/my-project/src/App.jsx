@@ -6,6 +6,7 @@ import Practice_Props from "./Components/Props";
 import Music from "./Components/Music";
 import Navbar from "./Components/Navbar";
 
+
 function App() {
   // people
   const dataProps = [
@@ -148,6 +149,8 @@ function App() {
       )
     );
   };
+
+
 
   return (
     <>
