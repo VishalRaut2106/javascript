@@ -8,6 +8,8 @@ import Navbar from "./Components/Navbar";
 
 
 function App() {
+  
+
   // people
   const dataProps = [
     {
