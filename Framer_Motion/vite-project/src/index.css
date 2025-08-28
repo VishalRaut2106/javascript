@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-size: 16px;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  font-family: "Gilroy", Segoe UI, Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+}
+body {
+  color: #f9f9f9;
+  background-color: #333;
+}
+.box {
+  height: 200px;
+  width: 200px;
+  background-color: #fff;
+}
+.circle {
+  height: 200px;
+  width: 200px;
+  background-color: #fff;
+  border-radius: 50%;
+}
+.page1{
+height: 100vh;
+background-color: rgb(34, 84, 67);
+}
+.page2{
+  height: 100vh;
+  background-color: #5b2a2a;
+}
