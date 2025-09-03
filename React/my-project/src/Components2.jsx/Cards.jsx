@@ -1,10 +1,11 @@
 import React from 'react'
 import Card from './Card'
 
-function Cards() {
+function Cards(user) {
   return (
-    <div className='p-4 h-[25vh] bg-sky-200 w-full '>
-        <Card/>
+    <div className='p-4 h-96 w-full justify-center gap-5 flex flex-wrap  '>
+        <Card user={user}/>
+        
     </div>
   )
 }

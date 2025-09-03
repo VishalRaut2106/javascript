@@ -1,13 +1,11 @@
-import React from 'react'
+import React from "react";
 
-function Card() {
+function Card({user}) {
   return (
-    <div className='w-32 h-[20vh] bg-amber-300 rounded  items-center flex-col flex p-2'>
-        <div className="image w-10 h-10 rounded-full bg-blue-600 overflow-hidden">
-            <img className="w-full h-full object-cover" src="" alt="Placeholder"/>
-        </div>
-    </div>
-  )
+<>
+{user.map((item , index)={})}
+</>
+  );
 }
 
-export default Card
+export default Card;
