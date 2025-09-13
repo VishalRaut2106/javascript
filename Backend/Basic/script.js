@@ -22,5 +22,5 @@
 // console.log(math.PI);
 // console.log(math.g);
 
-const aboutfruits = require("./fruits");
+const aboutfruits = require("../fruits");
 console.log(aboutfruits[0].name);
