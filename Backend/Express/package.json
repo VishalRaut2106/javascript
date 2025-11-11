@@ -1,0 +1,15 @@
+{
+  "name": "express",
+  "version": "1.0.0",
+  "description": "A Node.js web application framework that helps us to make web applications it is used for server side programming",
+  "license": "ISC",
+  "author": "vishal raut",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
